@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db209b6-e6af-420f-b29d-45937f2582d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requests/get_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests/get_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests/get_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests/get_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests/one_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests/post_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robote/robote_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx/async_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx/httpx_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx/httpx_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re/compile_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re/re_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re/re_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re/re_senior_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re/re_senior_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re/sub_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/auth_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/cookie/cookie_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/cookie/cookie_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/cookie/session_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/cookie/ssl_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/cookie/ssl_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/proxy/proxy_http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/proxy/proxy_socks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parse_1.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/re/compile_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requests/post_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -54,16 +55,11 @@
     <setting file="file://$PROJECT_DIR$/exception_2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/exception_3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/parse_1.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/requests/get_1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/parse_2.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/requests/get_2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/parse_3_urlsplit.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/requests/get_3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/parse_4_urlunsplit.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/parse_5_urljoin.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/requests/get_4.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/parse_6_urlencode.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/requests/post_1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/parse_7_qs.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/parse_8_qsl.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/parse_9_quote.py" root0="SKIP_INSPECTION" />
@@ -71,7 +67,29 @@
     <setting file="file://$PROJECT_DIR$/robote/robote_1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/robote/robote_2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/requests/one_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/get_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/httpx/async_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/get_2.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/get_3.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/get_4.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/post_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/cookie/cookie_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/cookie/cookie_2.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/cookie/session_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/cookie/ssl_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/cookie/ssl_2.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/httpx/httpx_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/auth_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/httpx/httpx_2.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/proxy/proxy_http.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requests/proxy/proxy_socks.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/re/re_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/re/re_2.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/re/re_senior_1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/exception_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/re/re_senior_2.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/re/sub_1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/re/compile_1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/one_senior_3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/one_senior_4.py" root0="SKIP_INSPECTION" />
   </component>
@@ -102,6 +120,24 @@
         <option value="$PROJECT_DIR$/requests/get_3.py" />
         <option value="$PROJECT_DIR$/requests/get_4.py" />
         <option value="$PROJECT_DIR$/requests/post_1.py" />
+        <option value="$PROJECT_DIR$/requests/cookie/cookie_1.py" />
+        <option value="$PROJECT_DIR$/requests/cookie/cookie_2.py" />
+        <option value="$PROJECT_DIR$/requests/cookie/session_1.py" />
+        <option value="$PROJECT_DIR$/requests/cookie/ssl_1.py" />
+        <option value="$PROJECT_DIR$/requests/cookie/ssl_2.py" />
+        <option value="$PROJECT_DIR$/requests/time_1.py" />
+        <option value="$PROJECT_DIR$/requests/auth_1.py" />
+        <option value="$PROJECT_DIR$/requests/proxy/proxy_1.py" />
+        <option value="$PROJECT_DIR$/requests/proxy/proxy_socks.py" />
+        <option value="$PROJECT_DIR$/re/re_1.py" />
+        <option value="$PROJECT_DIR$/re/re_2.py" />
+        <option value="$PROJECT_DIR$/re/re_senior_1.py" />
+        <option value="$PROJECT_DIR$/re/re_senior_2.py" />
+        <option value="$PROJECT_DIR$/re/sub_1.py" />
+        <option value="$PROJECT_DIR$/re/compile_1.py" />
+        <option value="$PROJECT_DIR$/httpx/httpx_1.py" />
+        <option value="$PROJECT_DIR$/httpx/httpx_2.py" />
+        <option value="$PROJECT_DIR$/httpx/async_1.py" />
       </list>
     </option>
   </component>
@@ -117,6 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,21 +161,10 @@
               <item name="chapter_one" type="b2602c69:ProjectViewProjectNode" />
               <item name="chapter_one" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="chapter_one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter_one" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter_one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter_one" type="462c0819:PsiDirectoryNode" />
-              <item name="robote" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,8 +187,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.post_1">
-    <configuration name="get_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.async_1">
+    <configuration name="async_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chapter_one" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,12 +196,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/httpx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests/get_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx/async_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="compile_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chapter_one" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,12 +218,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests/get_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re/compile_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +232,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="httpx_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chapter_one" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,12 +240,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/httpx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests/get_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx/httpx_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="httpx_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chapter_one" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,12 +262,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/httpx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests/get_4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx/httpx_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,7 +276,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="post_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sub_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chapter_one" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,12 +284,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests/post_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re/sub_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.post_1" />
-        <item itemvalue="Python.get_4" />
-        <item itemvalue="Python.get_3" />
-        <item itemvalue="Python.get_2" />
-        <item itemvalue="Python.get_1" />
+        <item itemvalue="Python.async_1" />
+        <item itemvalue="Python.httpx_2" />
+        <item itemvalue="Python.httpx_1" />
+        <item itemvalue="Python.compile_1" />
+        <item itemvalue="Python.sub_1" />
       </list>
     </recent_temporary>
   </component>
@@ -296,21 +322,22 @@
       <workItem from="1656425404518" duration="5153000" />
       <workItem from="1656512195668" duration="4864000" />
       <workItem from="1656598788054" duration="4527000" />
+      <workItem from="1656836640770" duration="9372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16742000" />
+    <option name="totallyTimeSpent" value="26114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21648793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44759208" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47875354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,29 +359,44 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/chapter_one$exception_1.coverage" NAME="exception_1 Coverage Results" MODIFIED="1656426452322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chapter_one$get_2.coverage" NAME="get_2 Coverage Results" MODIFIED="1656602573071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
-    <SUITE FILE_PATH="coverage/chapter_one$one_senior_3.coverage" NAME="one_senior_3 Coverage Results" MODIFIED="1655993727566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chapter_one$parse_2.coverage" NAME="parse_2 Coverage Results" MODIFIED="1656514248294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter_one$session_1.coverage" NAME="session_1 Coverage Results" MODIFIED="1656840640498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests/cookie" />
     <SUITE FILE_PATH="coverage/chapter_one$parse_10_unquote.coverage" NAME="parse_10_unquote Coverage Results" MODIFIED="1656518186355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chapter_one$post_1.coverage" NAME="post_1 Coverage Results" MODIFIED="1656604528370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/chapter_one$post_1.coverage" NAME="post_1 Coverage Results" MODIFIED="1656836941078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/chapter_one$re_2.coverage" NAME="re_2 Coverage Results" MODIFIED="1656848403434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/re" />
     <SUITE FILE_PATH="coverage/chapter_one$parse_8_qsl.coverage" NAME="parse_8_qsl Coverage Results" MODIFIED="1656517768761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chapter_one$parse_9_quote.coverage" NAME="parse_9_quote Coverage Results" MODIFIED="1656518074208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chapter_one$parse_6_urlencode.coverage" NAME="parse_6_urlencode Coverage Results" MODIFIED="1656515359360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter_one$get_1.coverage" NAME="get_1 Coverage Results" MODIFIED="1656601902923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
     <SUITE FILE_PATH="coverage/chapter_one$get_4.coverage" NAME="get_4 Coverage Results" MODIFIED="1656604036237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
     <SUITE FILE_PATH="coverage/chapter_one$parse_3_urlsplit.coverage" NAME="parse_3_urlsplit Coverage Results" MODIFIED="1656514460729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chapter_one$one_senior_4.coverage" NAME="one_senior_4 Coverage Results" MODIFIED="1655994918839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chapter_one$parse_7_qs.coverage" NAME="parse_7_qs Coverage Results" MODIFIED="1656515528142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chapter_one$exception_2.coverage" NAME="exception_2 Coverage Results" MODIFIED="1656426776148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chapter_one$robote_1.coverage" NAME="robote_1 Coverage Results" MODIFIED="1656519379373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robote" />
+    <SUITE FILE_PATH="coverage/chapter_one$cookie_2.coverage" NAME="cookie_2 Coverage Results" MODIFIED="1656838213257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests/cookie" />
+    <SUITE FILE_PATH="coverage/chapter_one$re_1.coverage" NAME="re_1 Coverage Results" MODIFIED="1656847613813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/re" />
+    <SUITE FILE_PATH="coverage/chapter_one$httpx_1.coverage" NAME="httpx_1 Coverage Results" MODIFIED="1656862265790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/httpx" />
     <SUITE FILE_PATH="coverage/chapter_one$one_senior_5.coverage" NAME="one_senior_5 Coverage Results" MODIFIED="1656425801580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter_one$parse_1.coverage" NAME="parse_1 Coverage Results" MODIFIED="1656433028864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter_one$re_senior_2.coverage" NAME="re_senior_2 Coverage Results" MODIFIED="1656860662139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/re" />
     <SUITE FILE_PATH="coverage/chapter_one$one_1.coverage" NAME="one_1 Coverage Results" MODIFIED="1656601444797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
     <SUITE FILE_PATH="coverage/chapter_one$get_3.coverage" NAME="get_3 Coverage Results" MODIFIED="1656602872211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
     <SUITE FILE_PATH="coverage/chapter_one$exception_3.coverage" NAME="exception_3 Coverage Results" MODIFIED="1656427924719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter_one$parse_5_urljoin.coverage" NAME="parse_5_urljoin Coverage Results" MODIFIED="1656514999089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter_one$robote_2.coverage" NAME="robote_2 Coverage Results" MODIFIED="1656600708434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robote" />
+    <SUITE FILE_PATH="coverage/chapter_one$compile_1.coverage" NAME="compile_1 Coverage Results" MODIFIED="1656861803379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/re" />
+    <SUITE FILE_PATH="coverage/chapter_one$ssl_1.coverage" NAME="ssl_1 Coverage Results" MODIFIED="1656841056618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests/cookie" />
+    <SUITE FILE_PATH="coverage/chapter_one$exception_1.coverage" NAME="exception_1 Coverage Results" MODIFIED="1656426452322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter_one$re_senior_1.coverage" NAME="re_senior_1 Coverage Results" MODIFIED="1656849058334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/re" />
+    <SUITE FILE_PATH="coverage/chapter_one$get_2.coverage" NAME="get_2 Coverage Results" MODIFIED="1656602573071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/chapter_one$async_1.coverage" NAME="async_1 Coverage Results" MODIFIED="1656862970620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/httpx" />
+    <SUITE FILE_PATH="coverage/chapter_one$one_senior_3.coverage" NAME="one_senior_3 Coverage Results" MODIFIED="1655993727566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter_one$httpx_2.coverage" NAME="httpx_2 Coverage Results" MODIFIED="1656862624008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/httpx" />
+    <SUITE FILE_PATH="coverage/chapter_one$parse_2.coverage" NAME="parse_2 Coverage Results" MODIFIED="1656514248294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter_one$parse_9_quote.coverage" NAME="parse_9_quote Coverage Results" MODIFIED="1656518074208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter_one$parse_6_urlencode.coverage" NAME="parse_6_urlencode Coverage Results" MODIFIED="1656515359360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter_one$auth_1.coverage" NAME="auth_1 Coverage Results" MODIFIED="1656841557592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/chapter_one$one_senior_4.coverage" NAME="one_senior_4 Coverage Results" MODIFIED="1655994918839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter_one$parse_7_qs.coverage" NAME="parse_7_qs Coverage Results" MODIFIED="1656515528142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter_one$exception_2.coverage" NAME="exception_2 Coverage Results" MODIFIED="1656426776148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter_one$cookie_1.coverage" NAME="cookie_1 Coverage Results" MODIFIED="1656837130296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests/cookie" />
+    <SUITE FILE_PATH="coverage/chapter_one$ssl_2.coverage" NAME="ssl_2 Coverage Results" MODIFIED="1656841278157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests/cookie" />
+    <SUITE FILE_PATH="coverage/chapter_one$robote_1.coverage" NAME="robote_1 Coverage Results" MODIFIED="1656519379373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robote" />
+    <SUITE FILE_PATH="coverage/chapter_one$sub_1.coverage" NAME="sub_1 Coverage Results" MODIFIED="1656861510979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/re" />
     <SUITE FILE_PATH="coverage/chapter_one$parse_4_urlunsplit.coverage" NAME="parse_4_urlunsplit Coverage Results" MODIFIED="1656514740331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -549,6 +591,13 @@
     <entry file="file://$PROJECT_DIR$/one_1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/requests/post_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/parse_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -556,10 +605,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requests/post_1.py">
+    <entry file="file://$PROJECT_DIR$/requests/cookie/cookie_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/cookie/cookie_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/cookie/session_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/cookie/ssl_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="63" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/cookie/ssl_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/auth_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/proxy/proxy_http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/proxy/proxy_socks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re/re_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="42" lean-forward="true" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re/re_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re/re_senior_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re/re_senior_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re/sub_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpx/async_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="85" lean-forward="true" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpx/httpx_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpx/httpx_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re/compile_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
         </state>
       </provider>
     </entry>
