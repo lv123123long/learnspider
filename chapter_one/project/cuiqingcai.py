@@ -13,8 +13,8 @@ logging.basicConfig(level=logging.INFO,
 BASE_URL = 'https://ssr1.scrape.center'
 TOTAL_PAGE = 10
 
-RESULTS_DIR = 'results'
-exists(RESULTS_DIR) or makedirs(RESULTS_DIR)
+RESULTS_DIR = 'results'                  # 文件夹名称
+exists(RESULTS_DIR) or makedirs(RESULTS_DIR)    # 判断文件夹是否存在，不存在则创造文件夹
 
 
 def scrape_page(url):
