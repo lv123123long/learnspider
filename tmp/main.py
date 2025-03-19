@@ -1,13 +1,23 @@
-my_dict = {'a': 1, 'b': 2, 'c': 3}
+'''
+给定一个字符串 s ，请你找出其中不含有重复字符的 最长 子串 的长度。示例如下
+输入: s = "abcabcbb"
+输出: 3 
+解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+'''
 
-it_keys = iter(my_dict)      # 迭代键
+def find_longest_substring(s):
+    if not s:
+        return 0
+    max_len = 0
+    start = 0
+    d = {}
+    for i in range(len(s)):
+        if s[i] in d and d[s[i]] >= start:
+            start = d[s[i]] + 1
+        d[s[i]] = i
+        max_len = max(max_len, i - start + 1)
+    return max_len
 
-it_values = iter(my_dict.values())   # 迭代值
-
-it_items = iter(my_dict.items())    # 迭代键值对
-
-print(it_keys.__next__())   #   a
-
-print(it_values.__next__())  # 1
-
-print(it_items.__next__())   # ('a', 1)
+if __name__ == '__main__':
+    s = "abcabcbbfeawljljflawejflawefl"
+    print(find_longest_substring(s))
